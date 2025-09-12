@@ -1,1 +1,12 @@
+#include <stdio.h>
 
+int main() {
+    float length,breadth,area,parimeter;
+    printf("Enter number length and breadth = ");
+    scanf("%f%f",&length,&breadth);
+    area= length*breadth;
+    parimeter= 2*(length+breadth);
+    printf( "The Area is = %f\n The parimeter is = %f",area,parimeter);
+
+    return 0;
+}

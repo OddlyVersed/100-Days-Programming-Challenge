@@ -2,7 +2,7 @@
 
 int main() {
     float length,breadth,area,parimeter;
-    printf("Enter number length and breadth = ");
+    printf("Enter length and breadth = ");
     scanf("%f%f",&length,&breadth);
     area= length*breadth;
     parimeter= 2*(length+breadth);
